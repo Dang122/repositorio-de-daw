@@ -15,6 +15,12 @@ public class ListaTareas {
         this.tareas = new Tarea[numero];
     }
     
+    public ozuna(int numero){
+       
+    }
+    
+    
+    
     public void agregarTarea(String nombre) {
         Tarea tarea = new Tarea(nombre);
         tareas[numerodeTareas] = tarea;
